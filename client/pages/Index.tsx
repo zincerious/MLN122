@@ -51,7 +51,7 @@ export default function Index() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-100/50 dark:bg-cyan-900/30 border border-cyan-200 dark:border-cyan-700">
               <Sparkles className="w-4 h-4 text-cyan-600" />
               <span className="text-sm font-medium text-cyan-700 dark:text-cyan-300">
-                Khóa học chính trị kinh tế hiện đại
+                MLN122 - Group 6
               </span>
             </div>
 
@@ -62,8 +62,7 @@ export default function Index() {
             </h1>
 
             <p className="text-lg sm:text-xl text-foreground/70 max-w-3xl mx-auto leading-relaxed">
-              Khám phá các khái niệm cơ bản về độc quyền, chủ nghĩa tư bản, và mô hình kinh tế thị trường
-              định hướng xã hội chủ nghĩa. Một khóa học toàn diện cho nền kinh tế hiện đại.
+              Lecturer: Ms.ThuyHTV
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -71,14 +70,14 @@ export default function Index() {
                 href="#modules"
                 className="cursor-target group flex items-center gap-2 px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
               >
-                Bắt đầu học tập
+                Bắt đầu
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
                 href="#modules"
                 className="cursor-target px-8 py-4 rounded-lg border-2 border-foreground/20 text-foreground font-semibold hover:border-foreground/40 hover:bg-foreground/5 transition-all"
               >
-                Xem các phần học
+                Nội dung
               </a>
             </div>
           </div>
@@ -90,11 +89,8 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              Nội dung khóa học
+              Nội dung 
             </h2>
-            <p className="text-foreground/60 max-w-2xl mx-auto">
-              Ba phần chính cấu thành khóa học MLN122 với nội dung chi tiết và phân tích sâu sắc
-            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
@@ -152,24 +148,24 @@ export default function Index() {
       <section className="relative px-4 sm:px-6 lg:px-8 py-20 bg-gradient-to-b from-background to-slate-100/30 dark:to-slate-900/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-foreground mb-16">
-            Đặc điểm khóa học
+            Đặc điểm
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Nội dung toàn diện',
+                title: 'Nội dung',
                 description: 'Ba phần chính bao gồm độc quyền, chủ nghĩa tư bản và kinh tế XHCN',
                 icon: '📚',
               },
               {
-                title: 'Phân tích sâu sắc',
+                title: 'Phân tích',
                 description:
                   'Tìm hiểu chi tiết về lý thuyết kinh tế và ứng dụng thực tiễn tại Việt Nam',
                 icon: '🔍',
               },
               {
-                title: 'Giao diện hiện đại',
+                title: 'Giao diện',
                 description: 'Trải nghiệm học tập mượt mà với thiết kế responsive và tương tác',
                 icon: '✨',
               },
